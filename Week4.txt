@@ -1,9 +1,10 @@
 A description of the problem and a discussion of the background.
-A startup want to open a new chain of coffee cafes in the city of Bengaluru, India. 
-The objective is to determine the areas having relatively less coffee shops and the
-area where people having liking for the coffee.
+A startup want to open a new chain of coffee cafes in the city of Bengaluru, India. Mr. Murthi, who is the owner of the business recently moved from USA to India and wants to start a new business. He is not much aware about the city but is sure that people love coffee.
+He wants to know the areas which lack in coffee shops and the areas having tech parks. He wants to target the office goers who would want to have quality coffee in office hours.
+
 
 A description of the data and how it will be used to solve the problem.
 The data that we have is for the Bengaluru city along with the various Neighbourhoods in the city. 
 The latitude and longitutde data is also available which will be used by the foursquare api to fetch the nearbuy coffee
-shops in the area. Further we will be doing our analysis on the extracted data. 
+shops in the area. 
+The foursqure api will be used to identify the office areas along with the areas which have coffee shops. Then we will cluster the areas and find out our target cluster.
